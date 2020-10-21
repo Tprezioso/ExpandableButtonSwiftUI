@@ -11,6 +11,8 @@
 		9FC4BE03253DCD10004F6B59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4BE02253DCD10004F6B59 /* ContentView.swift */; };
 		9FC4BE05253DCD11004F6B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4BE04253DCD11004F6B59 /* Assets.xcassets */; };
 		9FC4BE08253DCD11004F6B59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4BE07253DCD11004F6B59 /* Preview Assets.xcassets */; };
+		9FDBCAAA253F824B0044A993 /* ExpandableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBCAA9253F824B0044A993 /* ExpandableButton.swift */; };
+		9FDBCAAD253F855E0044A993 /* MenuButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDBCAAC253F855E0044A993 /* MenuButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9FC4BE04253DCD11004F6B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC4BE07253DCD11004F6B59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FC4BE09253DCD11004F6B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FDBCAA9253F824B0044A993 /* ExpandableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExpandableButton.swift; path = ../../../../../../Develop/devProjects/iOSProjects/SwiftTomBlogProjects/ExpandableButton/ExpandableButton/ExpandableButton.swift; sourceTree = "<group>"; };
+		9FDBCAAC253F855E0044A993 /* MenuButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuButtons.swift; path = ../../../../../../Develop/devProjects/iOSProjects/SwiftTomBlogProjects/ExpandableButton/ExpandableButton/MenuButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				9FC4BE00253DCD10004F6B59 /* ExpandableButtonApp.swift */,
 				9FC4BE02253DCD10004F6B59 /* ContentView.swift */,
+				9FDBCAA9253F824B0044A993 /* ExpandableButton.swift */,
+				9FDBCAAC253F855E0044A993 /* MenuButtons.swift */,
 				9FC4BE04253DCD11004F6B59 /* Assets.xcassets */,
 				9FC4BE09253DCD11004F6B59 /* Info.plist */,
 				9FC4BE06253DCD11004F6B59 /* Preview Content */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDBCAAA253F824B0044A993 /* ExpandableButton.swift in Sources */,
 				9FC4BE03253DCD10004F6B59 /* ContentView.swift in Sources */,
 				9FC4BE01253DCD10004F6B59 /* ExpandableButtonApp.swift in Sources */,
+				9FDBCAAD253F855E0044A993 /* MenuButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
