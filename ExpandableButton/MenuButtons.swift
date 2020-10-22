@@ -11,13 +11,20 @@ struct MenuButtons: View {
     var buttonImage: String
     
     var body: some View {
-        ZStack {
-            Circle()
-                .foregroundColor(.green)
-                .frame(width: 50, height: 50)
-            Image(systemName: buttonImage)
-                .imageScale(.large)
-                .foregroundColor(.white)
+        Button(action: {
+            print("Menu Button tapped")
+            
+        }) {
+            ZStack {
+                Circle()
+                    .foregroundColor(.green)
+                    .frame(width: 50, height: 50)
+                
+                Image(systemName: buttonImage)
+                    .imageScale(.large)
+                    .foregroundColor(.white)
+                
+            }
         }
     }
 }

@@ -26,7 +26,7 @@ struct ExpandableButton: View {
             }) {
                 Image(systemName: "plus.circle.fill")
                     .resizable()
-                    .frame(width: 75, height: 75)
+                    .frame(width: 100, height: 100)
                     .foregroundColor(.green)
             }
             
